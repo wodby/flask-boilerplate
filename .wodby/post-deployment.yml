@@ -1,0 +1,6 @@
+version: 0.1
+
+jobs:
+  flask-routes:
+    steps:
+    - run: flask --app app routes
